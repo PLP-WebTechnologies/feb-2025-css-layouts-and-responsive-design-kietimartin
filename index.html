@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Using flexbox layout to style a navbar and make it responsive">
+    <meta name="author" content="Martin kieti">
+
+    <!-- linking to css stylesheeet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- embedding a google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Responsive NavBar</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div><p>My Website</p></div>
+
+            <!-- adding the checkbox and label for the dropdown menu in small screens -->
+            <input type="checkbox" class="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="icon">☰</label>
+
+            <ul class="nav-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Earn</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
